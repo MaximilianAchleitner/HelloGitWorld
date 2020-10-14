@@ -16,7 +16,14 @@ public class Main {
                 System.out.println("Zahl 3:");
                 int i3 = Integer.parseInt(sc.next());
 
-                i = i1 + i2 + i3;
+                System.out.println("Operator (+/-)");
+                String Op = sc.next();
+
+                if(Op.equals("+"))
+                    i = i1 + i2 + i3;
+                else if(Op.equals("-"))
+                    i= i1 - i2 - i3;
+
 
             } catch (Exception e) {
                 System.out.println("Es wurde ein nicht kompatibler Wert angegeben!");
