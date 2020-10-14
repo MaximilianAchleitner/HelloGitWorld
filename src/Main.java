@@ -13,7 +13,10 @@ public class Main {
                 System.out.println("Zahl 2:");
                 int i2 = Integer.parseInt(sc.next());
 
-                i = i1 + i2;
+                System.out.println("Zahl 3:");
+                int i3 = Integer.parseInt(sc.next());
+
+                i = i1 + i2 + i3;
 
             } catch (Exception e) {
                 System.out.println("Es wurde ein nicht kompatibler Wert angegeben!");
