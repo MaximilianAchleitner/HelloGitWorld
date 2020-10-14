@@ -16,16 +16,18 @@ public class Main {
                 System.out.println("Zahl 3:");
                 int i3 = Integer.parseInt(sc.next());
 
-                System.out.println("Operator (+|-|*)");
+                System.out.println("Operator (+|-|*|/)");
                 String Op = sc.next();
 
+                
                 if(Op.equals("+"))
                     i = i1 + i2 + i3;
                 else if(Op.equals("-"))
                     i= i1 - i2 - i3;
                 else if(Op.equals("*"))
                     i= i1 * i2 * i3;
-
+                else if(Op.equals("/"))
+                    i= i1 / (i2 * i3);
 
 
             } catch (Exception e) {
